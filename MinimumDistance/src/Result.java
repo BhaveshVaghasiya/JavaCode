@@ -1,12 +1,10 @@
-package Level1;
-
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MinimumDistance {
+public class Result {
 	public static int minimumDistances(List<Integer> a) {
-		int result = a.size();
+		int result = -1;
 		for (int i = 0; i < a.size(); i++) {
 			int count = 0;
 			for (int j = i + 1; j < a.size(); j++) {
@@ -17,11 +15,7 @@ public class MinimumDistance {
 				}
 			}
 		}
-		if (result == a.size()) {
-			return -1;
-		} else {
-			return result;
-		}
+		return result;
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -29,7 +23,7 @@ public class MinimumDistance {
 		List<Integer> a = new ArrayList<>();
 		for (int i = 0; i < array.length; i++)
 			a.add(new Integer(array[i]));
-		int result = MinimumDistance.minimumDistances(a);
+		int result = Result.minimumDistances(a);
 		System.out.println("Result: " + result);
 	}
 }
