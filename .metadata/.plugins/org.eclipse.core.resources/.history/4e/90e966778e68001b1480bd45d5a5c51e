@@ -1,0 +1,14 @@
+package test;
+
+import java.util.HashMap;
+
+public class Task {
+	public static void main(String args[]) {
+		
+		String str = new String("A");
+		String str1 = "A";
+		System.out.println(str == str1);
+	}
+	
+	
+}

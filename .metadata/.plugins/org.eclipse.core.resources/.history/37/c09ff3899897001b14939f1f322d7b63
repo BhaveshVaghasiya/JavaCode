@@ -1,0 +1,21 @@
+package test;
+
+public class ExceptionClass {
+	public static void badmethod() {
+		throw new RuntimeException();
+	}
+
+	public static void main(String args[]) {
+		try {
+			badmethod();
+			System.out.println("E");
+		}  catch (Exception ex) {
+			System.out.println("B");
+		}catch (RuntimeException ex) {
+			System.out.println("A");
+		} finally {
+			System.out.println("C");
+		}
+		System.out.println("D");
+	}
+}

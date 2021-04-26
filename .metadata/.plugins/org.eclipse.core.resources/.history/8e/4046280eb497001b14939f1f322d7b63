@@ -1,0 +1,35 @@
+package test;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+
+public class consecutiveString {
+
+	public static void main(String args[]) throws IOException {
+		
+		File myobj=new File("input.txt");
+		FileWriter writer=new FileWriter(myobj);
+		writer.write(result);
+		writer.close();
+		
+		
+		String s = "Let's meet l8r 2nite?";
+		String b = s.replace(" ", "");
+		int result = 0;
+		int count = 0;
+		for(int i = 0; i< b.length(); i++) {
+			String dummy = String.valueOf(b.charAt(i)).toUpperCase();
+			int d = String.valueOf(b.charAt(i)).toUpperCase().charAt(0);
+				if(d >= 65 && d <= 90) {
+					count = count + 1;
+				}else {
+					count = 0;
+				}
+				if(result < count) {
+					result = count;
+				}
+		}
+		System.out.println("result: "+ result );
+	}
+}

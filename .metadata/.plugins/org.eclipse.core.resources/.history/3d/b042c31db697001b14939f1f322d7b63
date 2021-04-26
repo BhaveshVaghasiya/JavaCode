@@ -1,0 +1,17 @@
+package test;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class urmil {
+
+	public static void main(String args[]) {
+		Scanner myInput = new Scanner( System.in );
+		List<Integer> arr =  new ArrayList<Integer>();
+	    while(myInput.nextInt() > 0) {
+	    	arr.add(myInput.nextInt());
+	    } 
+	    System.out.println(arr.size());
+	}
+}

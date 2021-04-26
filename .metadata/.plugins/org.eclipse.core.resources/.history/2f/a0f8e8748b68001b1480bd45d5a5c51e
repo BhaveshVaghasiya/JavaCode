@@ -1,0 +1,10 @@
+package test;
+
+public class Task {
+        static void Main(String[] args)
+        {
+            A obj = new B();// what is use of it?
+            obj.method();   
+        }
+ 
+}

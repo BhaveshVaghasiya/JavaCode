@@ -1,0 +1,22 @@
+package test;
+
+public class palindrom {
+	 public static void main(String[] args)
+	    {
+	        System.out.println(methodReturningValue());    
+	    }
+	 
+	    static int methodReturningValue()
+	    {
+	        try
+	        {
+	        	int a= 10/0;
+	            return 10;
+	        }
+	        catch (Exception e)
+	        {
+	            return 20;
+	        }
+	        
+	    }
+}

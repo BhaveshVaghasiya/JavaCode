@@ -1,0 +1,21 @@
+package test;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.util.Scanner;
+
+
+public class anagram  {
+	public static void main(String args[])throws IOException
+	{
+	File myobj=new File("Documents:\\abc.txt");
+	Scanner scan=new Scanner(System.in);
+	FileWriter writer=new FileWriter(myobj);
+	writer.write("javaprogram");
+	
+	
+	}
+	
+	
+
+}

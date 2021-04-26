@@ -1,0 +1,20 @@
+package test;
+
+public class palindrom {
+	public static boolean palindrom(long number){
+		long orgnumber =number;
+		long pnumber = 0;
+        while(number > 0){
+            pnumber = pnumber * 10 + number%10;
+             number = number/10;
+        }
+        if(orgnumber == pnumber){
+            return true;
+        }else{
+            return false;
+        }
+    }
+	public static void main(String[] args) {
+		System.out.println("The number is palindrom: " + palindrom(2322322328));
+	}
+}

@@ -1,0 +1,19 @@
+package test;
+
+public class B extends A
+{
+    public B()
+    {
+        System.out.println("B");
+
+    }
+    public void method()
+    {
+    	System.out.println("BM");
+
+    }
+    public void method1()
+    {
+    	System.out.println("BM1");
+    }
+}

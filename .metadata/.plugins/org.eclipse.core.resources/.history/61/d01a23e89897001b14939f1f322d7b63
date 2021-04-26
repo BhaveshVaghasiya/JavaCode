@@ -1,0 +1,47 @@
+package test;
+
+public class classB {
+
+	private String name;
+	private String adress;
+	private String phNo;
+	private String email;
+	private String pancard;
+	
+	public classB(String phNo, String pancard) {
+		super();
+		this.phNo = phNo;
+		this.pancard = pancard;
+	}
+	
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public String getAdress() {
+		return adress;
+	}
+	public void setAdress(String adress) {
+		this.adress = adress;
+	}
+	public String getPhNo() {
+		return phNo;
+	}
+	public void setPhNo(String phNo) {
+		this.phNo = phNo;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getPancard() {
+		return pancard;
+	}
+	public void setPancard(String pancard) {
+		this.pancard = pancard;
+	}
+}
