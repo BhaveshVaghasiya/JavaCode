@@ -8905,3 +8905,6 @@ org.eclipse.jface.resource.DeviceResourceException: Unable to create resource UR
 
 !ENTRY org.eclipse.jdt.debug 2 0 2021-04-27 14:03:31.032
 !MESSAGE Unable to find location of java.lang.Thread.setName() in debuggee JVM, for type java.lang.Thread
+
+!ENTRY org.eclipse.equinox.security 1 0 2021-04-27 16:20:36.676
+!MESSAGE New keyring password generated. 

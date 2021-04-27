@@ -1,4 +1,6 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\asus\\eclipse-workspace\\.git;C\:\\Users\\asus\\git\\f5859f7f-d792-4641-a506-43e17908132b\\.git;
-GitRepositoriesView.GitDirectories.relative=.git;C\:\\Users\\asus\\git\\f5859f7f-d792-4641-a506-43e17908132b\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\asus\\eclipse-workspace\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;
+RepositorySearchDialogDeepSearch=false
+RepositorySearchDialogSearchPath=C\:\\Users\\asus\\git
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1
