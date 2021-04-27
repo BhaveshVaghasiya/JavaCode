@@ -14,7 +14,6 @@ public class Result {
 	
 	public static void main(String[] args) {
 		System.out.println(Result.appendAndDelete("abcd","abcdert", 10));
-		
 	}
 	
 }
