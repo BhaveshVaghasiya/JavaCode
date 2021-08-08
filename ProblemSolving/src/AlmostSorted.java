@@ -2,12 +2,11 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class Result {
+public class AlmostSorted {
 
 	public static void almostSorted(List<Integer> arr) {
 		List<Integer> farr = new ArrayList<Integer>();
@@ -58,7 +57,6 @@ public class Result {
 		List<Integer> arr = Stream.of(bufferedReader.readLine().replaceAll("\\s+$", "").split(" "))
 				.map(Integer::parseInt).collect(Collectors.toList());
 
-		Result.almostSorted(arr);
+		AlmostSorted.almostSorted(arr);
 	}
-
 }

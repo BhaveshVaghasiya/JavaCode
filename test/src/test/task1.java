@@ -7,10 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class task1 {
-	task1(){}
-	static void task1(){
-		this();
-	}
+	
 	/*
 	 * public static void MyGETRequest() throws IOException { URL urlForGetRequest =
 	 * new URL("https://http-hunt.thoughtworks-labs.net/challenge"); String readLine
@@ -29,7 +26,4 @@ public class task1 {
 	 * Auto-generated catch block e.printStackTrace(); } }
 	 */
 	
-	public static void main(String atgs[]) {
-		task1();
-	}
 }
